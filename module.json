@@ -27,5 +27,5 @@
     ]
   },
   "manifest": "https://raw.githubusercontent.com/dade/pf2e-journal-toolkit/main/module.json",
-  "download": "https://github.com/dade/pf2e-journal-toolkit/releases/download/v0.1.0/pf2e-journal-toolkit.zip"
+  "download": "https://github.com/dade/pf2e-journal-toolkit/releases/download/stable/pf2e-journal-toolkit.zip"
 }
