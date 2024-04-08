@@ -1,0 +1,29 @@
+{
+  "id": "pf2e-journal-toolkit",
+  "version": "0.1.0",
+  "title": "PF2e - Journal Toolkit",
+  "compatibility": {
+    "minimum": 11,
+    "verified": 11
+  },
+  "protected": false,
+  "authors": [
+    {
+      "name": "Dale 'badgr_' Emasiri",
+      "discord": "badgr_",
+      "url": "https://demasiri.com"
+    }
+  ],
+  "esmodules": ["./js/pf2e-jtk.mjs", "./js/journal-sheet.mjs"],
+  "styles": ["./styles/pf2e-jtk.css"],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "comaptibility": {
+          "minumum": "5.11.0"
+        }
+      }
+    ]
+  }
+}

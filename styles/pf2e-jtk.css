@@ -1,0 +1,139 @@
+/**
+ * Description Styling - Borrowed from PF2e Kingmaker
+ */
+div.journal-sheet.window-app .journal-page-content section.description,
+section#chat li.chat-message section.description {
+  position: relative;
+  margin: 0.6rem 0;
+}
+
+div.journal-sheet.window-app .journal-page-content section.description p,
+section#chat li.chat-message section.description p {
+  margin: 8px 0;
+  overflow: auto;
+  color: #9d4433;
+  padding: 0 0.4rem 0 0.4rem;
+}
+
+div.journal-sheet.window-app
+  .journal-page-content
+  section.description
+  p:not(:first-child),
+section#chat li.chat-message section.description p:not(:first-child) {
+  text-indent: 1.2rem;
+}
+
+div.journal-sheet.window-app
+  .journal-page-content
+  section.description
+  p:first-of-type,
+section#chat li.chat-message section.description p:first-of-type {
+  border-top: 1px solid #9d4433;
+  padding-top: 8px;
+}
+
+div.journal-sheet.window-app
+  .journal-page-content
+  section.description
+  p:last-of-type,
+section#chat li.chat-message section.description p:last-of-type {
+  border-bottom: 1px solid #9d4433;
+  padding-bottom: 8px;
+}
+
+div.journal-sheet.window-app .journal-page-content span.flavor-text div.page,
+section#chat li.chat-message span.flavor-text div.page {
+  width: 100%;
+  background: none;
+  outline: none;
+  height: 2.25rem;
+}
+
+div.journal-sheet.window-app
+  .journal-page-content
+  span.flavor-text
+  div.page
+  a.content-link,
+section#chat li.chat-message span.flavor-text div.page a.content-link {
+  text-align: center;
+  border-radius: 4px;
+  line-height: 1.5rem;
+  display: block;
+  border: 1px solid #a59999;
+}
+
+div.journal-sheet.window-app
+  .journal-page-content
+  span.flavor-text
+  div.page
+  a.content-link:active,
+section#chat li.chat-message span.flavor-text div.page a.content-link:active {
+  background: #c9c4c4;
+}
+
+div.journal-sheet.window-app
+  .journal-page-content
+  section.description.readout
+  .readoutButton,
+section#chat li.chat-message section.description.readout .readoutButton {
+  content: "\f27a";
+  font: normal normal normal 18px/1 FontAwesome;
+  cursor: pointer;
+  color: #9d4433;
+  position: absolute;
+  right: -0.5rem;
+  top: -0.9rem;
+  padding: 0.5rem;
+  visibility: hidden;
+}
+div.journal-sheet.window-app
+  .journal-page-content
+  section.description.readout:hover
+  .readoutButton {
+  visibility: initial;
+}
+
+/**
+ * Speaker Style
+ */
+div.journal-sheet.window-app
+  .journal-page-content
+  section.speaker.speakout
+  .speakButton {
+  content: "\f27a";
+  font: normal normal normal 18px/1 FontAwesome;
+  cursor: pointer;
+  color: #9d4433;
+  position: absolute;
+  right: 0.35rem;
+  padding-top: 6px;
+}
+
+div.journal-sheet.window-app .journal-page-content section.speaker,
+section#chat li.chat-message section.speaker {
+  background: #ddd;
+  padding: 0rem 0.5rem;
+  border-radius: 10px;
+  border: 1px solid #9d4433;
+  margin: 0.4rem auto;
+}
+
+div.journal-sheet.window-app
+  .journal-page-content
+  section.speaker
+  p:first-of-type
+  a.content-link {
+  font-weight: 600;
+  font-size: 1.1em;
+  padding-top: 0.2rem;
+  background: none;
+  border-radius: 4px;
+  border: none;
+}
+
+div.journal-sheet.window-app
+  .journal-page-content
+  section.speaker
+  p:first-of-type {
+  border-bottom: 1px solid #9d4433;
+}
